@@ -1,6 +1,3 @@
-const { json } = require("body-parser");
-const e = require("express");
-
 // 모듈화
 module.exports = function(app, fs)
 {
@@ -133,7 +130,7 @@ module.exports = function(app, fs)
     });
 
     // 로그인
-    app.post("/login/", function(req, res){
+    app.post("/login", function(req, res){
         var sess;
         sess = req.session;
 
