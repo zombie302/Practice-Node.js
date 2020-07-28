@@ -24,4 +24,4 @@ mongoose.connect("mongodb://localhost/mongodb_tutorial");
 
 var Book = require("./models/book");
 
-var router = require("./routes") (app, Book)
+var router = require("./routes") (app, Book);
