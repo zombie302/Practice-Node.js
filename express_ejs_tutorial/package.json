@@ -2,9 +2,9 @@
     "name": "express_tutorial",
     "version": "1.0.0",
     "dependencies": {
-        "express": "~4.17.1",
+        "express": "~4.17.3",
         "ejs": "~3.1.3",
-        "body-parser": "~1.14.2",
+        "body-parser": "~1.20.1",
         "express-session": "~1.13.0"
     }
 }
